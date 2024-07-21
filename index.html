@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Tracker Website</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Elemen loading -->
+    <div id="loading" class="loading-container">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <h1>Bitlocus</h1>
+        <div class="nav-menu">
+          <a>USD</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Pages Intro -->
+    <div class="introduction">
+      <div class="left">
+        <h1 class="title">Bitlocus will accelerate your business</h1>
+        <p class="desc">
+          Use ready-made APIs and bootstrap your business or implement<br />crypto
+          into your existing workflow.
+        </p>
+        <div class="btn">
+          <a href="#get-started">Get Started <i class="bi bi-caret-right-fill"></i></a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="assets/btc-logo.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Get Started Section -->
+    <div id="get-started">
+      <div class="description">
+        <h1>Crypto Marketplace Tracker</h1>
+        <p>
+          Introducing Crypto Tracker, the innovative app that displays real-time
+          prices and in-depth information on various digital coins. With
+          accurate data and an attractive interface, Crypto Tracker is your best
+          tool for navigating the world of cryptocurrency investments. Try it
+          now and experience the convenience!
+        </p>
+      </div>
+      <div class="search-container">
+        <input
+          id="coinName"
+          type="text"
+          class="search-input"
+          placeholder="Search crypto.."
+        />
+        <button id="submit" class="search-button">Search</button>
+      </div>
+
+      <!-- Content Table -->
+      <div class="table-container">
+        <table class="crypto-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Coins</th>
+              <th>Price (USD)</th>
+              <th>24H Change</th>
+              <th>Market Cap (USD)</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

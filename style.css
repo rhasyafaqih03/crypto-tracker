@@ -1,0 +1,253 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  min-height: 280vh;
+  padding: 0 8%;
+  background-color: #22674E;
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .introduction {
+    justify-content: center;
+  }
+  .introduction .right {
+    display: none; 
+  }
+  .introduction .left a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .introduction .left .title {
+    font-size: 45px;
+    margin-top: 25px;
+  }
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1324px) and (min-width: 769px) {
+  .introduction {
+    justify-content: center;
+  }
+  .introduction .right {
+    display: none; 
+  }
+  .introduction .left a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .introduction .left .title {
+    font-size: 45px; 
+    margin-top: 25px;
+  }
+}
+
+/* Loading Screen */
+
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22674E;
+  z-index: 1000;
+  display: none; 
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Header Section */
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px white solid;
+}
+header .container h1 {
+  color: white;
+}
+header .container .nav-menu a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: .2s;
+}
+header .container .nav-menu a:hover {
+  color: rgb(208, 208, 208);
+}
+
+/* Introduction */
+.introduction {
+  display: flex;
+}
+.introduction .left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+.introduction .left h1 {
+  color: white;
+  font-size: 76px;
+  line-height: 0.9;
+  margin-bottom: 25px;
+}
+.introduction .left p {
+  color: #E5E6E5;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.introduction a {
+  cursor: pointer;
+  background-color: #15C586;
+  color: #E9FFF7;
+  border: none;
+  padding: 18px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: .2s;
+}
+.introduction a:hover {
+  background-color: #13b079;
+}
+.introduction .right {
+  width: 40%;
+  text-align: center;
+}
+
+/* Get-started */
+#get-started {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#get-started .description {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#get-started h1 {
+  color: white;
+  font-size: 4vw;
+}
+#get-started p {
+  color: #E5E6E5;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff; /* White background for the search box */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.search-input {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  width: 300px;
+  color: #333;
+}
+
+.search-input::placeholder {
+  color: #aaa; 
+}
+
+.search-button {
+  background-color: #12a270; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #10885e; 
+}
+
+/* Content Table */
+.table-container {
+  width: 90%;
+  max-width: 1200px;
+  overflow-x: auto;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #283e36;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.crypto-table thead {
+  background-color: #0b7852;
+  color: #E9FFF7;
+}
+
+.crypto-table th, .crypto-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #3e3e5c;
+}
+
+.crypto-table th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+
+.crypto-table tbody {
+  color: white;
+}
+
+.crypto-table tbody tr:hover {
+  background-color: #3e3e5c;
+}
+
+.crypto-table img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.crypto-table .positive {
+  color: #00ff08;
+}
+
+.crypto-table .negative {
+  color: #f44336;
+}
