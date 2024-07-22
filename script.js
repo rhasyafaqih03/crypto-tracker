@@ -115,3 +115,50 @@ document.getElementById("submit").addEventListener("click", () => {
     fetchDataCoin(coinName);
   }
 });
+
+function changeMode(mode) {
+  const body = document.body;
+  const loading = document.getElementById('loading');
+  const header = document.querySelector("header");
+  const introduction = document.querySelector(".introduction");
+  const getStarted = document.getElementById("get-started");
+  const searchContainer = document.querySelector(".search-container");
+  const cryptoTable = document.querySelector(".crypto-table");
+
+  if (mode === "dark") {
+    body.classList.add("dark-mode");
+    loading.classList.add("dark-mode");
+    header.classList.add("dark-mode");
+    introduction.classList.add("dark-mode");
+    getStarted.classList.add("dark-mode");
+    searchContainer.classList.add("dark-mode");
+    cryptoTable.classList.add("dark-mode");
+  } else {
+    body.classList.remove("dark-mode");
+    loading.classList.remove("dark-mode");
+    header.classList.remove("dark-mode");
+    introduction.classList.remove("dark-mode");
+    getStarted.classList.remove("dark-mode");
+    searchContainer.classList.remove("dark-mode");
+    cryptoTable.classList.remove("dark-mode");
+  }
+}
+
+function saveMode(mode) {
+  localStorage.setItem("mode", mode);
+}
+
+document.getElementById("dark").addEventListener("click", () => {
+  changeMode("dark");
+  saveMode("dark");
+});
+
+document.getElementById("normal-mode").addEventListener("click", () => {
+  changeMode("normal");
+  saveMode("normal");
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const savedMode = localStorage.getItem("mode") || "normal";
+  changeMode(savedMode);
+});
