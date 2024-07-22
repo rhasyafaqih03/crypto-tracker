@@ -14,106 +14,106 @@
 
 Berikut adalah daftar 100 koin yang didukung oleh Crypto Tracker:
 
-1. Bitcoin
-2. Ethereum
-3. Tether
-4. Binance Coin
-5. Solana
-6. USD Coin
-7. XRP
-8. Dogecoin
-9. Cardano
-10. Avalanche
-11. TRON
-12. Shiba Inu
-13. Wrapped Bitcoin
-14. Polkadot
-15. Chainlink
-16. Bitcoin Cash
-17. Near Protocol
-18. Litecoin
-19. Unus Sed LEO
-20. Multi-Collateral DAI
-21. Polygon
-22. Internet Computer
-23. Uniswap
-24. Fetch
-25. Ethereum Classic
-26. Stellar
-27. Monero
-28. Stacks
-29. Filecoin
-30. Maker
-31. Render Token
-32. OKB
-33. VeChain
-34. Crypto.com Coin
-35. Arweave
-36. The Graph
-37. Injective Protocol
-38. Lido DAO
-39. Thorchain
-40. Cosmos
-41. Theta
-42. Fantom
-43. Aave
-44. Algorand
-45. Hedera Hashgraph
-46. Flow
-47. KuCoin Token
-48. Axie Infinity
-49. Bitcoin SV
-50. Quant
-51. Elrond (EGLD)
-52. EOS
-53. Akash Network
-54. Gala
-55. Neo
-56. Helium
-57. Tezos
-58. The Sandbox
-59. GateToken
-60. Conflux Network
-61. eCash
-62. Nexo
-63. Gnosis (GNO)
-64. Decentraland
-65. Mantra DAO
-66. Pendle
-67. Chiliz
-68. Mina
-69. Raydium
-70. Oasis Network
-71. AIOZ Network
-72. IOTA
-73. Nervos Network
-74. DEXE
-75. Klaytn
-76. Livepeer
+1. bitcoin
+2. ethereum
+3. tether
+4. binance-coin
+5. solana
+6. usd-coin
+7. xrp
+8. dogecoin
+9. cardano
+10. avalanche
+11. tron
+12. shiba-inu
+13. wrapped-bitcoin
+14. polkadot
+15. chainlink
+16. bitcoin-cash
+17. near-protocol
+18. litecoin
+19. unus-sed-leo
+20. multi-collateral-dai
+21. polygon
+22. internet-computer
+23. uniswap
+24. fetch
+25. ethereum-classic
+26. stellar
+27. monero
+28. stacks
+29. filecoin
+30. maker
+31. render-token
+32. okb
+33. vechain
+34. crypto-com-coin
+35. arweave
+36. the-graph
+37. injective-protocol
+38. lido-dao
+39. thorchain
+40. cosmos
+41. theta
+42. fantom
+43. aave
+44. algorand
+45. hedera-hashgraph
+46. flow
+47. kucoin-token
+48. axie-infinity
+49. bitcoin-sv
+50. quant
+51. elrond-egld
+52. eos
+53. akash-network
+54. gala
+55. neo
+56. helium
+57. tezos
+58. the-sandbox
+59. gatetoken
+60. conflux-network
+61. ecash
+62. nexo
+63. gnosis-gno
+64. decentraland
+65. mantra-dao
+66. pendle
+67. chiliz
+68. mina
+69. raydium
+70. oasis-network
+71. aioz-network
+72. iota
+73. nervos-network
+74. dexe
+75. klaytn
+76. livepeer
 77. 1inch
-78. Zcash
-79. NXM
-80. TrueUSD
-81. IoTeX
-82. Theta Fuel
-83. PancakeSwap
-84. FTX Token
-85. WEMIX
-86. Kava
-87. Bitcoin Gold
-88. Synthetix Network Token
-89. Trust Wallet Token
-90. Compound
-91. Fei Protocol
-92. Wootrade
-93. Aragon
-94. XinFin Network
-95. Kusama
-96. Golem Network Tokens
-97. SuperFarm
-98. Curve DAO Token
-99. Enjin Coin
-100. Zilliqa
+78. zcash
+79. nxm
+80. trueusd
+81. iotex
+82. theta-fuel
+83. pancakeswap
+84. ftx-token
+85. wemix
+86. kava
+87. bitcoin-gold
+88. synthetix-network-token
+89. trust-wallet-token
+90. compound
+91. fei-protocol
+92. wootrade
+93. aragon
+94. xinfin-network
+95. kusama
+96. golem-network-tokens
+97. superfarm
+98. curve-dao-token
+99. enjin-coin
+100. zilliqa
 
 ## Penggunaan
 
