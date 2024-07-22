@@ -5,13 +5,16 @@
   box-sizing: 0;
 }
 body {
-  min-height: 280vh;
+  min-height: 180vh;
   padding: 0 8%;
   background-color: #22674E;
 }
 
 /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
+  header .container .nav-menu {
+    display: flex;
+  }
   .introduction {
     justify-content: center;
   }
@@ -94,6 +97,7 @@ header .container .nav-menu a {
   margin: 0 15px;
   text-decoration: none;
   transition: .2s;
+  cursor: pointer;
 }
 header .container .nav-menu a:hover {
   color: rgb(208, 208, 208);
@@ -162,7 +166,7 @@ header .container .nav-menu a:hover {
 .search-container {
   display: flex;
   align-items: center;
-  background-color: #fff; /* White background for the search box */
+  background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -250,4 +254,105 @@ header .container .nav-menu a:hover {
 
 .crypto-table .negative {
   color: #f44336;
+}
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #E0E0E0;
+}
+
+header.dark-mode .container {
+  border-bottom: 1px solid #333;
+}
+
+header.dark-mode .container h1, 
+header.dark-mode .container .nav-menu a {
+  color: #E0E0E0;
+}
+
+.introduction.dark-mode {
+  background-color: #1E1E1E;
+}
+
+.introduction.dark-mode .left h1 {
+  color: #E0E0E0;
+}
+
+.introduction.dark-mode .left p {
+  color: #A0A0A0;
+}
+
+.introduction.dark-mode a {
+  background-color: #333;
+  color: #E0E0E0;
+}
+
+.introduction.dark-mode a:hover {
+  background-color: #555;
+}
+
+#get-started.dark-mode h1 {
+  color: #E0E0E0;
+}
+
+#get-started.dark-mode p {
+  color: #A0A0A0;
+}
+
+.search-container.dark-mode {
+  background-color: #333;
+}
+
+.search-input.dark-mode {
+  background-color: #333;
+  color: #E0E0E0;
+}
+
+.search-input.dark-mode::placeholder {
+  color: #888;
+}
+
+.search-button.dark-mode {
+  background-color: #444;
+  color: #E0E0E0;
+}
+
+.search-button.dark-mode:hover {
+  background-color: #555;
+}
+
+.table-container.dark-mode {
+  background-color: #1E1E1E;
+}
+
+.loading-container.dark-mode {
+  background-color: #1E1E1E;
+}
+
+.crypto-table.dark-mode {
+  background-color: #1E1E1E;
+  color: #E0E0E0;
+}
+
+.crypto-table.dark-mode thead {
+  background-color: #333;
+  color: #E0E0E0;
+}
+
+.crypto-table.dark-mode th, .crypto-table.dark-mode td {
+  border-bottom: 1px solid #444;
+}
+
+.crypto-table.dark-mode tbody tr:hover {
+  background-color: #333;
+}
+
+.crypto-table.dark-mode .positive {
+  color: #00FF00;
+}
+
+.crypto-table.dark-mode .negative {
+  color: #FF0000;
 }
