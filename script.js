@@ -1,5 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
   fetchDataTable();
+
+  // GSAP Animation
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.to(".description", {
+    scrollTrigger : ".description",
+    y : -100,
+    duration : 1,
+  });
+  gsap.to(".search-container", {
+    scrollTrigger : ".search-container",
+    y : -100,
+    duration : 1,
+  });
+  gsap.to(".table-container", {
+    scrollTrigger : ".table-container",
+    y : -100,
+    duration : 1,
+  });
 });
 
 async function fetchDataTable() {
@@ -123,6 +141,7 @@ function changeMode(mode) {
   const introduction = document.querySelector(".introduction");
   const getStarted = document.getElementById("get-started");
   const searchContainer = document.querySelector(".search-container");
+  const submitBtn = document.getElementById("submit");
   const cryptoTable = document.querySelector(".crypto-table");
 
   if (mode === "dark") {
@@ -132,6 +151,7 @@ function changeMode(mode) {
     introduction.classList.add("dark-mode");
     getStarted.classList.add("dark-mode");
     searchContainer.classList.add("dark-mode");
+    submitBtn.classList.add("dark-mode");
     cryptoTable.classList.add("dark-mode");
   } else {
     body.classList.remove("dark-mode");
@@ -140,6 +160,7 @@ function changeMode(mode) {
     introduction.classList.remove("dark-mode");
     getStarted.classList.remove("dark-mode");
     searchContainer.classList.remove("dark-mode");
+    submitBtn.classList.add("dark-mode");
     cryptoTable.classList.remove("dark-mode");
   }
 }
