@@ -116,11 +116,11 @@ Berikut adalah daftar 100 koin yang didukung oleh Crypto Tracker:
 
 ## Teknologi yang Digunakan
 
-- **HTML** ![HTML5 logo](https://www.w3.org/html/logo/downloads/HTML5_Logo_32.png)
-- **CSS** ![CSS3 logo](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
-- **JavaScript** ![JavaScript logo](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)
-- **Greensock ScrollTrigger** ![Greensock logo](https://greensock.com/uploads/monthly_2020_04/scrolltrigger.png)
-- **CoinCap API** ![CoinCap logo](https://assets.coingecko.com/coins/images/1959/small/coincap.png)
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Greensock ScrollTrigger** 
+- **CoinCap API**
 
 ## Penggunaan
 
