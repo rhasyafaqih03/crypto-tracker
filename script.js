@@ -160,7 +160,7 @@ function changeMode(mode) {
     introduction.classList.remove("dark-mode");
     getStarted.classList.remove("dark-mode");
     searchContainer.classList.remove("dark-mode");
-    submitBtn.classList.add("dark-mode");
+    submitBtn.classList.remove("dark-mode");
     cryptoTable.classList.remove("dark-mode");
   }
 }
